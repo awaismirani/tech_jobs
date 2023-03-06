@@ -60,32 +60,35 @@ dependencies:
   shared_preferences: ^2.0.17
   #  dio_http_cache: ^0.3.0
   flutter_inappwebview: ^5.7.2+3
-  flutter_launcher_icons: ^0.11.0
   flutter_zoom_drawer: ^3.0.3
   animated_text_kit: ^4.2.2
   cached_network_image: ^3.2.3
+  flutter_launcher_icons: ^0.11.0
   lottie: ^2.2.0
+#  icons_launcher: ^2.1.0
+
 
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  #  flutter_native_splash: ^2.2.16
-  #  flutter_native_splash:
-  #  background_image: assets/images/splash1.png
-  #  #  image: assets/images/splash1.png
-  #  #  image_path: assets/images/splash1.png
-  #  fullScreen: true
-  #  #  color: "#FFFFFF"
-  #  android: true
-  #  ios: true
-  #  flutter_launcher_icons: ^0.11.0
-  #
-  #flutter_icons:
-  #  android: "launcher_icon"
-  #  ios: true
-  #  image_path: "assets/images/logo1.png"
-  #  min_sdk_android: 19
+  flutter_native_splash: ^2.2.16
+flutter_native_splash:
+  background_image: assets/images/splash.png
+  image: assets/images/splash.png
+  image_path: 'assets/images/splash.png'
+#  fullScreen: true
+  color: "#FFFFFF"
+  android: true
+  ios: true
+
+
+  flutter_launcher_icons: ^0.11.0
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/logo.png"
+  min_sdk_android: 19
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is

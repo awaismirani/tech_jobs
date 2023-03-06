@@ -2,8 +2,13 @@
 class Assets {
   Assets._();
 
+  static const String assetsImagesSplash = 'assets/images/splash.png';
   static const String imagesImgGmail = 'assets/images/img_gmail.png';
   static const String imagesImgWebLink = 'assets/images/img_webLink.png';
+  static const String imagesLogo = 'assets/images/logo.png';
+  static const String imagesSplash = 'assets/images/splash.gif';
+  static const String imagesSplash1 = 'assets/images/splash1.png';
+  static const String imagesTech = 'assets/images/Tech.png';
   static const String imagesWelcome = 'assets/images/welcome.png';
   static const String imagesWhatsapp = 'assets/images/whatsapp.png';
 

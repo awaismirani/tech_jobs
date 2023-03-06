@@ -282,25 +282,27 @@ class _ScreenTermsAndConditionsState extends State<ScreenTermsAndConditions> {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
-        backgroundColor: Colors.pink,
+        backgroundColor: Colors.white,
         leading: IconButton(
           onPressed: () {
             Get.back();
           },
           icon: Icon(
             Icons.arrow_back,
-            color: Colors.white,
+            color: Colors.black,
           ),
         ),
         title: Text(
           "Terms and Conditions",
             style: TextStyle(
-              color: Colors.white,
+              color: Colors.black,
               fontFamily: "Roboto",
               fontWeight: FontWeight.w700,
               fontSize: 18.sp,
             )
         ),
+        foregroundColor: Colors.black,
+        elevation: .5,
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -457,9 +459,9 @@ class _ScreenTermsAndConditionsState extends State<ScreenTermsAndConditions> {
                           text: "Please read these terms and conditions carefully before using Our Service. ")),
                   GestureDetector(
                       onTap: (){
-                        launch('mailto:support@techjobs.tech');
+                        launch('mailto:support@shikaafe.co.uk');
                       },
-                      child: Text("• By Email: support@techjobs.tech\n", style: TextStyle(color: appPrimaryColor, fontWeight: FontWeight.w600, fontSize: 13.sp))),
+                      child: Text("• By Email: support@shikaafe.co.uk\n", style: TextStyle(color: appPrimaryColor, fontWeight: FontWeight.w600, fontSize: 13.sp))),
                   GestureDetector(
                       onTap: (){
                         launch('tel:0044125892705');

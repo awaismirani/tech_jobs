@@ -47,8 +47,10 @@ var userName;
     return SafeArea(
       child: Scaffold(
         appBar: AppBar(
-          backgroundColor: Colors.pink,
-          title: Text(widget.title),
+          backgroundColor:Colors.white,
+          title: Text('Tech Jobs'),
+          elevation: .5,
+          foregroundColor: Colors.black,
           leading:  IconButton(onPressed: () async {
             // if (await _webViewController1.canGoBack()) {
             // _webViewController1.goBack();
@@ -61,6 +63,7 @@ var userName;
             IconButton(onPressed: () async {
               _webViewController1.reload();
             }, icon: Icon(Icons.refresh),),
+            SizedBox(width: 20,),
           ],
          ),
         body: Stack(

@@ -20,21 +20,23 @@ class _ScreenUserAboutState extends State<ScreenUserAbout> {
       child: Scaffold(
         backgroundColor: Colors.white,
         appBar: AppBar(
-          backgroundColor: Colors.pink,
-
+          foregroundColor: Colors.black,
+          backgroundColor: Colors.white,
+          elevation: .5,
           leading: IconButton(
             onPressed: () {
               Get.back();
             },
+
             icon: Icon(
               Icons.arrow_back,
               size: 18,
-              color: Colors.white,
+              color: Colors.black,
             ),
           ),
           title: Text(
             "Contact Us",
-            style: TextStyle(color: Colors.white),
+            style: TextStyle(color: Colors.black),
           ),
           // elevation: 3,
           // centerTitle: true,
@@ -127,12 +129,12 @@ class _ScreenUserAboutState extends State<ScreenUserAbout> {
                 ),
                 onTap: () {
                   launcher.launchUrl(
-                    Uri.parse("https://www.techjobs.tech/contact-us"),
+                    Uri.parse("https://shikaafi.co.uk"),
                     mode: launcher.LaunchMode.externalApplication,
                   );
                 },
                 title: Text(
-                  "https://www.techjobs.tech",
+                  "https://www.shikaafi.co.uk",
                   style: TextStyle(decoration: TextDecoration.underline),
                 ),
               ),
@@ -144,12 +146,12 @@ class _ScreenUserAboutState extends State<ScreenUserAbout> {
                 ),
                 onTap: () {
                   launcher.launchUrl(
-                    Uri.parse("mailto:support@techjobs.tech"),
+                    Uri.parse("mailto:support@shikaafi.co.uk"),
                     mode: launcher.LaunchMode.externalApplication,
                   );
                 },
                 title: Text(
-                  "support@techjobs.tech",
+                  "support@shikaafi.co.uk",
                   style: TextStyle(decoration: TextDecoration.underline),
                 ),
               ),
